@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(179, 190, 179);
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+}
+
+.titu{
+    display: flex;
+    justify-content: center;
+}
+
+.cuerpo{
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 4px 2px 8px 0 rgba(229, 69, 35);
+    border-radius: 5px;
+    width: 50%;
+    
+}
+
+.card:hover{
+    box-shadow: 8px 4px 16px 2px rgb(23, 192, 108);
+}
+
+.container{
+    padding: 10px;
+    border: 2px;
+    margin: auto;
+    background-color: cornflowerblue    ;
+}
+
+.text-style{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+}
+
+ul{
+    list-style-type: none;
+    margin: 3px;
+    padding: 6px;
+    width: 300px;
+    background-color: aquamarine;
+
+}
+
+li a{
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+li a:hover{
+    background-color: brown;
+    color:blueviolet
+}
+
+li a .active{
+    background-color: yellow;
+
+}
+
+.active{
+    background-color: gray;
+    color: blue;
+
+}
+
+li{
+    text-align: center;
+    border-bottom: 3px solid #398;
+}
+
+.link-card{
+    padding: 10px 10px 10px 10px;
+    margin: 1px;
+    background-color:pink;
+    display: flex;
+    justify-content: center;
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+}
